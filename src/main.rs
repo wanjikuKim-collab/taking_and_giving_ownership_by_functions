@@ -1,3 +1,4 @@
+//Program uses functions ownership and borrowing in place of references
 fn main() {
     let s1 = gives_ownership();
     let s2 = String::from("world");
